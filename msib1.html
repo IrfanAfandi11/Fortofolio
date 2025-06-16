@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detail Project - Sistem Absensi Siswa</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow p-4 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">IRFAN AFANDI</h1>
+      <a href="index.html" class="text-sm text-blue-600 hover:underline">← Kembali ke Portofolio</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-6xl mx-auto px-4 py-8">
+    <h2 class="text-3xl font-bold mb-4">Aplikasi E-Titcketing Pariwisata di Wonosobo Berbasis Web</h2>
+    
+    <p class="text-gray-700 mb-6">
+        Pada aplikasi e-ticketing pariwisata di Wonosobo berbasis website ini didalam implementasinya kami membuat tiga role (admin, pengelola dan pengguna).
+        Dirole admin, admin dapat melakukan login, admin dapat melakukan crud (data admin, data pengelola, dan data pengguna), admin dapat mengatur atau memanage pengelola dan pengguna yang masuk atau register ke sistem dan admin dapat melihat transaksi yang telah dilakukan oleh pengguna. Untuk fitur dirole pengelola, pengelola dapat melakukan login dan register, pengelola dapat melakukan crud (data wisata, data berita, data category, data promosi dan data verifikasi pesanan). 
+        Kemudian role pengguna, pengguna dapat melakukan login dan register, pengguna dapat melakukan update data profil dan bisa melengkapi alamat dan nomor hp, pengguna dapat melakukan pemesanan tiket wisata, pengguna dapat melihat lokasi tempat wisata yang ingin dituju melalui google maps, pengguna dapat melakukan pembayaran untuk pemesanan tiket online dengan cara upload bukti pembayaran untuk kemudian diverifikasi oleh pengelola, pengguna dapat melihat riwayat pesanan yang telah dilakukan.
+    </p>
+
+    <!-- Grid Gambar 2 Kolom x 12 Baris = 24 Card -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-8">
+        <!-- Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img src="assets/images/home.jpg"  class="w-full h-64 object-cover rounded-md mb-4" />
+          <h4 class="text-xl font-semibold mb-2">home page</h4>
+          <p class="text-gray-600 text-sm">Aplikasi untuk pemesanan tiket destinasi wisata secara online.</p>
+        </div>
+      
+        <!-- Card 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img src="assets/images/listwisata.jpg" class="w-full h-64 object-cover rounded-md mb-4" />
+          <h4 class="text-xl font-semibold mb-2">List Wisata</h4>
+          <p class="text-gray-600 text-sm">Pada tampilan list wisata dihalaman home page akan menampilkan wisata yang ada di wonsobo</p>
+        </div>
+      
+        <!-- Card 3–24 (Duplikasikan atau buat konten unik di sini) -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <img src="assets/images/login.jpg"class="w-full h-64 object-cover rounded-md mb-4" />
+          <h4 class="text-xl font-semibold mb-2">Login</h4>
+          <p class="text-gray-600 text-sm">Jika sudah register bisa masuk halaman login untuk  admin, pengelola dan user</p>
+        </div>
+
+        <!-- Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <img src="assets/images/register.png" class="w-full h-64 object-cover rounded-md mb-4" />
+            <h4 class="text-xl font-semibold mb-2">Register</h4>
+            <p class="text-gray-600 text-sm">Jika belum punya akun maka register terlebih dahulu</p>
+          </div>
+        
+          <!-- Card 2 -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <img src="assets/images/roleadmin.jpg" alt="Rekomendasi Kacamata" class="w-full h-64 object-cover rounded-md mb-4" />
+            <h4 class="text-xl font-semibold mb-2">Admin</h4>
+            <p class="text-gray-600 text-sm">Pada halaman dashboard sebagai admin akan menampilkan seperti dibawah ini. Dimana pada halaman dashboard menampilkan jumlah dari admin, pengelola, user, wisata, category, berita, promosi, dan transaksi yang terdaftar.</p>
+          </div>
+        
+          <!-- Card 3–24 (Duplikasikan atau buat konten unik di sini) -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <img src="assets/images/rolepengelola.jpg"  class="w-full h-64 object-cover rounded-md mb-4" />
+            <h4 class="text-xl font-semibold mb-2">Pengelola</h4>
+            <p class="text-gray-600 text-sm">Pada role pengelola terdapat CRUD wisata,category,berita,promosi dan pesanan.</p>
+          </div>
+
+          <!-- Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <img src="assets/images/roleuser.jpg" class="w-full h-64 object-cover rounded-md mb-4" />
+            <h4 class="text-xl font-semibold mb-2">User</h4>
+            <p class="text-gray-600 text-sm">Melakukan pemesanan tiket dengan cara pilih wisata pada navbar kemudian pilih wisata mana yang ingin dikunjungi setelah menentukan wisata mana yang ingin dikunjungi setelah itu klik selanjutnya pada card wisata yang dipilih. Setelah masuk pada detail wisatanya klik booking tiket. </p>
+          </div>
+        
+          <!-- Card 2 -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <img src="assets/images/keranjang.jpg" alt="Rekomendasi Kacamata" class="w-full h-64 object-cover rounded-md mb-4" />
+            <h4 class="text-xl font-semibold mb-2">Keranjang tike</h4>
+            <p class="text-gray-600 text-sm">Jika ingin membayar pesanan klik pada bayar pesanan pada gambar diatas. Setelah mengklik bayar pesanan maka akan menampilkan modal untuk mengupload bukti pembayaran</p>
+          </div>
+        
+          <!-- Card 3–24 (Duplikasikan atau buat konten unik di sini) -->
+          <div class="bg-white p-6 rounded-lg shadow-md">
+            <img src="assets/images/roleuser1.jpg" alt="Card Example" class="w-full h-64 object-cover rounded-md mb-4" />
+            <h4 class="text-xl font-semibold mb-2">Bukti Transaksi</h4>
+            <p class="text-gray-600 text-sm">Gambar diatas bukti user sudah transaksi</p>
+          </div>
+
+          <!-- Card 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <img src="assets/images/roleuser2.jpg" alt="E-Ticketing" class="w-full h-64 object-cover rounded-md mb-4" />
+            <h4 class="text-xl font-semibold mb-2">Tiket Pesanan</h4>
+            <p class="text-gray-600 text-sm">Tiket tersbut akan muncul apabila user sudah membayaran transaksi dan pengelola akan mengkonfirmasinya </p>
+          </div>
+      
+      </div>
+  </main>
+</body>
+</html>
